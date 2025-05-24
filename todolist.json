@@ -1,14 +1,14 @@
 [
   {
-    "name": "Teste",
+    "name": "Passear com o cachorro",
     "completed": true
   },
   {
-    "name": "Teste1",
+    "name": "Comprar morangos",
     "completed": false
   },
   {
-    "name": "Teste 23",
-    "completed": false
+    "name": "Limpar o fog\u00e3o",
+    "completed": true
   }
 ]

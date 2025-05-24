@@ -104,6 +104,7 @@ while True:
             if retornar_lista() == 'A lista de tarefas está vazia':
                  print('ERRO, a lista está vazia!')
             else:
+                print(retornar_lista())
                 index = so_aceita_int('Insira o valor que deseja apagar: ')
                 apagar(index)
         else:
