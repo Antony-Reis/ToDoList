@@ -25,11 +25,10 @@ def retornar_lista():
 
         lista_str = ''
 
-        for i,dc in enumerate(lista):
-                    
-                    completed = 'X' if dc["completed"] else ' '
-                    string = f'{i+1}° {dc["name"]} [{completed}]\n'
-                    lista_str += string
+        for i,dc in enumerate(lista):       
+                completed = 'X' if dc["completed"] else ' '
+                string = f'{i+1}° {dc["name"]} [{completed}]\n'
+                lista_str += string
 
         return lista_str
 
